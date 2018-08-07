@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Peep Peek</title>
+
+</head>
+
+<body>
+    <div class='container'>
+        <div class='card-panel white darken-1 col s12 center-align'>
+            <h4><strong>Fill this survey and find a soul mate </strong></h4>
+            <div class='card-panel left-align white'>
+                <h5><strong>Tell us about yourself.... </strong></h5>
+                    <br>
+                <label class='active' for="name">Name (required)</label>
+                <input id="name" type="text" class="validate" required>
+                    <br>
+                <label class='active' for="name">Link to Photo Image (required)</label>
+                <input id="photo" type="text" class="validate" required>
+            
+                <h6><strong> Attribute 1</strong></h6>
+                <p>The animal I am most like is ...</p>
+                <select data-placeholder="" class="browser-default" id="q1">
+                    <option value="">Choose an option</option>
+                    <option value="1">1 (Elephant)</option>
+                    <option value="2">2 (Turle)</option>
+                    <option value="3">3 (Horse)</option>
+                    <option value="4">4 (Dolphin)</option>
+                    <option value="5">5 (Snake)</option>
+                </select>
+                <h6><strong> Attribute 2</strong></h6>
+                <p>I see the world as ...</p>
+                <select data-placeholder="" class="browser-default" id="q2">
+                    <option value="">Choose an option</option>
+                    <option value="1">1 (Heaven)</option>
+                    <option value="2">2 (Pergatory)</option>
+                    <option value="3">3 (A wonderful place to be)</option>
+                    <option value="4">4 (Battle-ground)</option>
+                    <option value="5">5 (Hell)</option>
+                </select>
+                <h6><strong> Attribute 3</strong></h6>
+                <p>My drink of choice would be ...</p>
+                <select data-placeholder="" class="browser-default" id="q3">
+                    <option value="">Choose an option</option>
+                    <option value="1">1 (Milk)</option>
+                    <option value="2">2 (Juice)</option>
+                    <option value="3">3 (Sparkling Water) </option>
+                    <option value="4">4 (Beer)</option>
+                    <option value="5">5 (Whiskey)</option>
+                </select>
+                <h6><strong> Attribute 4</strong></h6>
+                <p>I would say I am _______ person.</p>
+                <select data-placeholder="" class="browser-default" id="q4">
+                    <option value="">Choose an option</option>
+                    <option value="1">1 (A Negative)</option>
+                    <option value="2">2 (An Angry)</option>
+                    <option value="3">3 (A Realatively positive)</option>
+                    <option value="4">4 (A Happy)</option>
+                    <option value="5">5 (An Exuberant)</option>
+                </select>
+                <h6><strong> Attribute 5</strong></h6>
+                <p>How would you rate yourself with new experieinces?</p>
+                <select data-placeholder="" class="browser-default" id="q5">
+                    <option value="">Choose an option</option>
+                    <option value="1">1 (No experieince is off the plate)</option>
+                    <option value="2">2 (Would try with my eyes closed)</option>
+                    <option value="3">3 (Up to almost anything)</option>
+                    <option value="4">4 (Kicking and screaming or heavily drugged)</option>
+                    <option value="5">5 (No Way)</option>
+                </select>
+                <h6><strong> Attribute 6</strong></h6>
+                <p>At a party I am the </p>
+                <select data-placeholder="" class="browser-default" id="q6">
+                    <option value="">Choose an Option</option>
+                    <option value="1">1 (the quiet one)</option>
+                    <option value="2">2 (the first one to arrive)</option>
+                    <option value="3">3 (the epi-center of the party)</option>
+                    <option value="4">4 (always picking up after people)</option>
+                    <option value="5">5 (Loud and Obnoxious)</option>
+                </select>
+                <h6><strong> Attribute 7</strong></h6>
+                <p>I see myself as </p>
+                <select data-placeholder="" class="browser-default" id="q7">
+                    <option value="">Choose an option</option>
+                    <option value="1">1 (Wanting everyone to love me)</option>
+                    <option value="2">2 (Annoyed)</option>
+                    <option value="3">3 (Humble & Kind)</option>
+                    <option value="4">4 (Empathetic)</option>
+                    <option value="5">5 (Selfish)</option>
+                </select>
+                <h6><strong> Attribute 8</strong></h6>
+                <p>My desk looks ... </p>
+                <select data-placeholder="" class="browser-default" id="q8">
+                    <option value="">Choose an option</option>
+                    <option value="1">1 (clean enough to eat off)</option>
+                    <option value="2">2 (dust bunnies everywhere)</option>
+                    <option value="3">3 (clean, organized and fun)</option>
+                    <option value="4">4 (depends on the day)</option>
+                    <option value="5">5 (like an atomic bomb went off)</option>
+                </select>
+                <h6><strong> Attribute 9</strong></h6>
+                <p>I relate most to</p>
+                <select data-placeholder="" class="browser-default" id="q9">
+                    <option value="">Choose an option</option>
+                    <option value="1">1 (Snoopy)</option>
+                    <option value="2">2 (Jerry) </option>
+                    <option value="3">3 (Deadpool) </option>
+                    <option value="4">4 (Two-Face)</option>
+                    <option value="5">5 (Poison Ivy)</option>
+                </select>
+                <h6><strong> Attribute 10</strong></h6>
+                <p>If you could choose only one, which would it be</p>
+                <select data-placeholder="" class="browser-default" id="q10">
+                    <option value="">Choose an option</option>
+                    <option value="1">1 (Tropic Thunder)</option>
+                    <option value="2">2 (Jaws)</option>
+                    <option value="3">3 (Stripes)</option>
+                    <option value="4">4 (Sin City)</option>
+                    <option value="5">5 (Eyes Wide Shut)</option>
+                </select>
+                <br>
+             
+                <button type ="submit" data-target="modal1" class="waves-effect waves-light btn modal-trigger red lighten-1" id="submitBtn">Submit</button>
+            </div>
+        </div>
+        <div class='col s4'>
+            <p><a href='/api/friends'>Fellow Fools ..</a> | <a href='https://github.com/BunnyGotFangs/friendfinder' target='_blank'>GitHub Repo</a></p>
+        </div>
+
+
+        <div id="modal1" class="modal">
+          <div class="modal-content">
+            <h4>This Peep Popped for You</h4>
+            <h5 id="matchName"></h5>
+            <img id="matchPic" src="" alt="No Image" width = 250px>
+          </div>
+        <div class="modal-footer">
+          <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Done</a>
+        </div>
+      </div>
+
+    </div>
+
+   
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+<!-- not sure if the scripts should go here or should be in different file and called elsewhere--> 
+<!-- either way am not getting my peep to add or match to pop--> 
+<script type="text/javascript">
+$(document).ready(function() {
+    $("#submitBtn").on("click", function() {
+      
+        function validateForm() {
+            var isValid = true;
+            $('.validate').each(function() {
+                if ($(this).val() === ''){
+                    isValid = false;
+                }
+            });
+            $('.browser-default').each(function() {
+                if ($(this).val() === ""){
+                    isValid = false;
+                }
+            });
+            return isValid;
+        }
+
+        if (validateForm() == true) {
+
+            var peeps = {
+                Name: $('#name').val().trim(),
+                Pic: $('#photo').val().trim(),
+                Ratings: [
+                    $('#q1').val(),
+                    $('#q2').val(),
+                    $('#q3').val(),
+                    $('#q4').val(),
+                    $('#q5').val(),
+                    $('#q6').val(),
+                    $('#q7').val(),
+                    $('#q8').val(),
+                    $('#q9').val(),
+                    $('#q10').val(),
+                ]
+            };
+ 
+            var currentURL = window.location.origin;
+
+            $.post(currentURL + "/api/friends", peeps, function(data) {
+                
+                $("#matchName").text(data.Name);
+                $("#matchPic").attr("src", data.Pic);
+            });
+           
+                $('.modal').modal();
+           
+            $('#name').val("");
+            $('#photo').val("");
+            $('#q1').val("");
+            $('#q2').val("");
+            $('#q3').val("");
+            $('#q4').val("");
+            $('#q5').val("");
+            $('#q6').val("");
+            $('#q7').val("");
+            $('#q8').val("");
+            $('#q9').val("");
+            $('#q10').val("");
+        } else {
+            alert("You Missed One. Need All the Frickin' Info")
+        }
+        
+    });
+});
+</script>
+</body>
+
+</html>
